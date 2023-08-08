@@ -16,4 +16,4 @@ sed -i -e '/<!-- index start -->/,$c\
 ' README.md
 bin/makeindex.sh >> README.md
 
-rm README.md-e
+rm README.md-e || true
