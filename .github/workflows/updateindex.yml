@@ -1,8 +1,11 @@
 # Github Action workflow that is run on push and runs bin/updateindex.sh and if that changes anything, commits and pushes the changes.
 name: Update Index
+run-name: Update Index from ${{ github.ref_name }}
 
 on:
   push:
+    branches: [ develop ]
+  workflow_dispatch:
 
 jobs:
   update-index:
@@ -14,6 +17,7 @@ jobs:
 
     - name: Run updateindex script
       run: |
+        find . -type f
         chmod +x bin/updateindex.sh
         ./bin/updateindex.sh
 

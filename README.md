@@ -5,6 +5,7 @@ snippets, probably to be used with ChatGPT somehow, but it's public, so you can 
 
 <!-- index start -->
 
+
 ## aem
 
 * [Structure analysis of Adobe AEM WKND site](aem//AemWKNDStructure.md) - 2023-08-08
