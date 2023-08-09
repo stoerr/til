@@ -9,12 +9,13 @@ I got that idea from Simon Willisons impressive
 
 <!-- index start -->
 
+
 ## Topics list
 
  [aem](#aem)
 
 ## [aem](#aem)
 
-* [Structure analysis of Adobe AEM WKND site](aem//AemWKNDStructure.md) - 2023-08-08
-* [Analyze a site](aem//AnalyzeSite.md) - 2023-08-08
+* [Structure analysis of Adobe AEM WKND site](aem//AemWKNDStructure.md) - 2023-08-09
+* [Analyze a site](aem//AnalyzeSite.md) - 2023-08-09
 
