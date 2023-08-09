@@ -1,12 +1,30 @@
 #!/bin/bash
 # for all directories in the current directory we print the name of the directory
-for dir in */; do
+if [ -z "$1" ]; then
+  dirs=*/
+
+  echo "## Topics list"
+  echo
+  # make a list of links named after the directory without the trailing slash
+  for dir in $dirs; do
+    # if there is a markdown file in there
+    if [ -n "$(ls -A $dir/*.md 2>/dev/null)" ]; then
+      echo -n " [${dir%/}](#${dir%/})"
+    fi
+  done
+  echo
+  echo
+else
+  dirs=$1
+fi
+
+for dir in $dirs; do
   # if there is no md file in the directory, we skip it
   if [ -z "$(ls -A $dir/*.md 2>/dev/null)" ]; then
     continue
   fi
   # print the directory name without the trailing slash
-  echo "## ${dir%/}"
+  echo "## [${dir%/}](#${dir%/})"
   echo
   for file in $dir/*.md; do
     # print e.g. * [title](dirname/file.md) - 2020-04-19

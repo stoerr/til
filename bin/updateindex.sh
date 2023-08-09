@@ -9,11 +9,5 @@ if [ ! -f README.md -o ! -f bin/makeindex.sh ]; then
   exit 1
 fi
 
-# delete everything after <!-- index start --> in README.md
-sed -i -e '/<!-- index start -->/,$c\
-<!-- index start -->\
-\
-' README.md
+bin/deleteafterindexstart.sh README.md
 bin/makeindex.sh >> README.md
-
-rm README.md-e || true
