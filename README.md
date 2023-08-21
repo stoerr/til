@@ -12,10 +12,19 @@ I got that idea from Simon Willisons impressive
 
 ## Topics list
 
- [aem](#aem)
+ [aem](#aem) [apacheSling](#apacheSling) [composum](#composum)
 
 ## [aem](#aem)
 
-* [Structure analysis of Adobe AEM WKND site](aem//AemWKNDStructure.md) - 2023-08-09
-* [Analyze a site](aem//AnalyzeSite.md) - 2023-08-09
+* [Structure analysis of Adobe AEM WKND site](aem//AemWKNDStructureReports.md) - 2023-08-21
+* [Analyze a site](aem//AnalyzeSite.md) - 2023-08-21
+* [AEM Archetype comments](aem//AemArchetypeStuff.md) - 2023-08-21
+
+## [apacheSling](#apacheSling)
+
+* [Exporting the JCR content to the filesystem](apacheSling//ContentExportToFilesystem.md) - 2023-08-21
+
+## [composum](#composum)
+
+* [Composum Site Structure](composum//ComposumSiteStructureReports.md) - 2023-08-21
 
