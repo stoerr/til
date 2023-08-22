@@ -26,7 +26,7 @@ for dir in $dirs; do
   # print the directory name without the trailing slash
   echo "## [${dir%/}](#${dir%/})"
   echo
-  for file in $dir/*.md; do
+  for file in ${dir}*.md; do
     # print e.g. * [title](dirname/file.md) - 2020-04-19
     # where the title is the first line of the file without the '# ' and the date is the date of the last commit
     echo "* [$(head -n 1 $file | sed 's/# //')]($file) - $(git log -1 --format=%cd --date=format:'%Y-%m-%d' -- $file)"

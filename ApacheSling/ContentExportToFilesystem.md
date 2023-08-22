@@ -3,7 +3,8 @@
 If you like to export some content from the JCR to the filesystem, it is possible to create a content package, but 
 that can be troublesome if you want to export much content because that creates a package as large as the content in 
 the JCR. Fortunately, there are several alternatives to that, which just export the content by creating packages on 
-the fly.
+the fly. See also [here](https://www.composum.com/home/blog/nodes/contentSyncForDevelopment.html) for the opposite - 
+syncing to the JCR.
 
 ## Use the Composum Browser
 

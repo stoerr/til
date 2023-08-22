@@ -1,6 +1,6 @@
 # Composum Site Structure
 
-This is just the result of some reports according to [AnalyzeSite](../aem/AnalyzeSite.md) on some sample sites.
+This is just the result of some reports according to [AnalyzeSite](../AdobeAEM/AnalyzeSite.md) on some sample sites.
 
 ## Report of primary types and resource types etc.
 
