@@ -14,20 +14,26 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 <!-- index start -->
 
+
 ## Topics list
 
- [aem](#aem) [apacheSling](#apacheSling) [composum](#composum)
+ [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [IntelliJIdea](#IntelliJIdea)
 
-## [aem](#aem)
+## [AdobeAEM](#AdobeAEM)
 
-* [Structure analysis of Adobe AEM WKND site](aem//AemWKNDStructureReports.md) - 2023-08-21
-* [Analyze a site](aem//AnalyzeSite.md) - 2023-08-21
-* [AEM Archetype comments](aem//AemArchetypeStuff.md) - 2023-08-21
+* [Structure analysis of Adobe AEM WKND site](AdobeAEM//AemWKNDStructureReports.md) - 2023-08-22
+* [Analyze a site](AdobeAEM//AnalyzeSite.md) - 2023-08-22
+* [AEM Archetype comments](AdobeAEM//AemArchetypeStuff.md) - 2023-08-22
 
-## [apacheSling](#apacheSling)
+## [ApacheSling](#ApacheSling)
 
-* [Exporting the JCR content to the filesystem](apacheSling//ContentExportToFilesystem.md) - 2023-08-21
+* [Exporting the JCR content to the filesystem](ApacheSling//ContentExportToFilesystem.md) - 2023-08-22
 
-## [composum](#composum)
+## [Composum](#Composum)
 
-* [Composum Site Structure](composum//ComposumSiteStructureReports.md) - 2023-08-21
+* [Composum Site Structure](Composum//ComposumSiteStructureReports.md) - 2023-08-22
+
+## [IntelliJIdea](#IntelliJIdea)
+
+* [How to open files in IntelliJ from the MacOS command line](IntelliJIdea//openInIntelliJCommandLine.md) - 2023-08-22
+
