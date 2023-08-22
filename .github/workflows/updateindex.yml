@@ -21,6 +21,12 @@ jobs:
         chmod +x bin/updateindex.sh
         ./bin/updateindex.sh
 
+    - name: Run updateindex script
+      run: |
+        find . -type f
+        chmod +x bin/generate_sitemap.sh
+        ./bin/generate_sitemap.sh
+
     - name: Commit and push changes
       run: |
         git config --global user.name 'GitHub Action Update Index'
