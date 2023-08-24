@@ -12,25 +12,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Run updateindex script
-      run: |
-        find . -type f
-        chmod +x bin/updateindex.sh
-        ./bin/updateindex.sh
+      - name: List files
+        run: |
+          find . -type f
 
-    - name: Run updateindex script
-      run: |
-        find . -type f
-        chmod +x bin/generate_sitemap.sh
-        ./bin/generate_sitemap.sh
+      - name: Run updateindex script
+        run: |
+          chmod +x bin/updateindex.sh
+          ./bin/updateindex.sh
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name 'GitHub Action Update Index'
-        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-        git add -A
-        git diff --quiet && git diff --staged --quiet || git commit -m "Update index via GitHub Action"
-        git push
+      - name: Recreate sitemap
+        run: |
+          chmod +x bin/generate_sitemap.sh
+          ./bin/generate_sitemap.sh
+
+      - name: Update file change times
+        run: |
+          chmod +x bin/updatetimes.sh
+          ./bin/updatetimes.sh
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Action Update Index'
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update index via GitHub Action"
+          git push
