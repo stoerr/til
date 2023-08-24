@@ -7,7 +7,7 @@ CAUTION: granite/ui/components/foundation/xxx vs. granite/ui/components/coral/fo
 ## Links
 
 - [Dialog Documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/components/components-basics.html?lang=en)
-- obsolete: [Granite UI Foundation Server-side](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/server.html)
+- [Granite UI Foundation Server-side](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/server.html)
 - [Coral UI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/index.html)
 - [Gist with many samples](https://gist.github.com/salomao-santos/0cd0240b9824b52a5fdf777ab712cfe2)
 
