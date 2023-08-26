@@ -23,18 +23,21 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## [AdobeAEM](#AdobeAEM)
 
-* [Structure analysis of Adobe AEM WKND site](AdobeAEM/AemWKNDStructureReports.md) - 2023-08-22
-* [Analyze a site](AdobeAEM/AnalyzeSite.md) - 2023-08-22
-* [AEM Archetype comments](AdobeAEM/AemArchetypeStuff.md) - 2023-08-22
+* [Structure analysis of Adobe AEM WKND site](AdobeAEM/AemWKNDStructureReports.md) - 08-08-2023
+* [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-08-2023
+* [Analyze a site](AdobeAEM/AnalyzeSite.md) - 15-08-2023
+* [AEM Archetype comments](AdobeAEM/AemArchetypeStuff.md) - 15-08-2023
 
 ## [ApacheSling](#ApacheSling)
 
-* [Exporting the JCR content to the filesystem](ApacheSling/ContentExportToFilesystem.md) - 2023-08-22
+* [Exporting the JCR content to the filesystem](ApacheSling/ContentExportToFilesystem.md) - 22-08-2023
 
 ## [Composum](#Composum)
 
-* [Composum Site Structure](Composum/ComposumSiteStructureReports.md) - 2023-08-22
+* [Composum Site Structure](Composum/ComposumSiteStructureReports.md) - 22-08-2023
 
 ## [IntelliJIdea](#IntelliJIdea)
 
-* [How to open files in IntelliJ from the MacOS command line](IntelliJIdea/openInIntelliJCommandLine.md) - 2023-08-22
+* [Miscellaneous Stuff about IntelliJ IDEA](IntelliJIdea/IntellJIdeaMisc.md) - 24-08-2023
+* [How to open files in IntelliJ from the MacOS command line](IntelliJIdea/openInIntelliJCommandLine.md) - 24-08-2023
+

@@ -1,5 +1,7 @@
 # Analyze a site
 
+Created 08-08-2023, last change 15-08-2023
+
 Some ideas how to get an overview over the structure of a site.
 
 ## Structure of components

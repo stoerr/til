@@ -1,5 +1,7 @@
 # Some relevant info about TouchUI Dialog Creation in Adobe AEM
 
+Created 24-08-2023, last change 24-08-2023
+
 Editing: probably best done with IntelliJ IDEA Live Templates, or a Scala DSL.
 Remember to look at the comments in the JSPs of the granite etc. components - they contain documentation.
 CAUTION: granite/ui/components/foundation/xxx vs. granite/ui/components/coral/foundation :  

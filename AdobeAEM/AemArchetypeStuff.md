@@ -1,5 +1,7 @@
 # AEM Archetype comments
 
+Created 15-08-2023, last change 15-08-2023
+
 See 
 https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en , 
 https://github.com/adobe/aem-project-archetype/blob/master/README.md

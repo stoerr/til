@@ -1,5 +1,7 @@
 # Structure analysis of Adobe AEM WKND site
 
+Created 08-08-2023, last change 08-08-2023
+
 https://wknd.site/us/en.html
 
 ## Report of primary types and resource types etc.
