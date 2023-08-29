@@ -19,7 +19,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## Topics list
 
- [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [IntelliJIdea](#IntelliJIdea)
+ [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [IntelliJIdea](#IntelliJIdea) [docker](#docker)
 
 ## [AdobeAEM](#AdobeAEM)
 
@@ -40,4 +40,8 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 * [Miscellaneous Stuff about IntelliJ IDEA](IntelliJIdea/IntellJIdeaMisc.md) - 24-08-2023
 * [How to open files in IntelliJ from the MacOS command line](IntelliJIdea/openInIntelliJCommandLine.md) - 24-08-2023
+
+## [docker](#docker)
+
+* [Various Docker commands](docker/VariousDockerCommands.md) - 29-08-2023
 
