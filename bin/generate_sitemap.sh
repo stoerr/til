@@ -11,7 +11,10 @@ for file in $(find . -type f -name "*.md"); do
     
     # Convert the .md file path to .html
     html_path="${file%.md}.html"
-    
+
+    # Remove the leading ./
+    html_path="${html_path#./}"
+
     # Append the entry to the sitemap.xml
 echo "  <url>" >> sitemap.xml
 echo "    <loc>https://stoerr.github.io/til/$html_path</loc>" >> sitemap.xml

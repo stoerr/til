@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # Collection of ideas how to continue this
 
 - blog about this
