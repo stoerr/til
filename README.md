@@ -25,6 +25,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 * [Structure analysis of Adobe AEM WKND site](AdobeAEM/AemWKNDStructureReports.md) - 08-08-2023
 * [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-08-2023
+* [Content sync to / from JCR for Adobe AEM](AdobeAEM/AemContentSync.md) - 31-08-2023
 * [Analyze a site](AdobeAEM/AnalyzeSite.md) - 15-08-2023
 * [AEM Archetype comments](AdobeAEM/AemArchetypeStuff.md) - 15-08-2023
 
