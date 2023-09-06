@@ -1,6 +1,6 @@
 # Some relevant info about TouchUI Dialog Creation in Adobe AEM
 
-Created 24-08-2023, last change 24-08-2023
+Created 24-08-2023, last change 06-09-2023
 
 Editing: probably best done with IntelliJ IDEA Live Templates, or a Scala DSL.
 Remember to look at the comments in the JSPs of the granite etc. components - they contain documentation.
@@ -27,6 +27,7 @@ jcr:primaryType="cq:EditConfig" dialogLayout="fullscreen"> </jcr:root>
 
 <content jcr:primaryType="nt:unstructured" sling:resourceType="cq/gui/components/authoring/dialog/richtext"
 fieldLabel="Content" name="./content" useFixedInlineToolbar="{Boolean}true" />
+Javascript: CUI.rte...
 
 ## [xmlns:granite="http://www.adobe.com/jcr/granite/1.0"](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/jcr_root/libs/granite/ui/docs/server/commonattrs.html)
 
@@ -35,3 +36,9 @@ fieldLabel="Content" name="./content" useFixedInlineToolbar="{Boolean}true" />
   attributes , [expression language](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/jcr_root/libs/granite/ui/docs/server/el.html)
   possible
 - granite:id , granite:rel , granite:hidden see doc.
+
+## Extending dialogs
+
+For extending component dialogs with Javascript, the clientlib 'cq.authoring.editor.sites.page.hook' is appropriate. 
+Also work: cq.authoring.editor.sites.page (doesn't work for page properties) , cq.authoring.dialog (works for page 
+properties), does not work: cq.authoring.page
