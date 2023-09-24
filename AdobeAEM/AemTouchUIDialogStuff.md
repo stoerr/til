@@ -40,3 +40,8 @@ Javascript: CUI.rte...
 For extending component dialogs with Javascript, the clientlib 'cq.authoring.editor.sites.page.hook' is appropriate. 
 Also work: cq.authoring.editor.sites.page (doesn't work for page properties) , cq.authoring.dialog (works for page 
 properties), does not work: cq.authoring.page
+
+### Stacking dialogs
+
+If you create a dialog from a dialog, it seems both get closed. I solved that for Composum AI by event.preventDefault(),
+event.stopPropagation() and removing the dialog HTML. (But I guess there is a better way I don't know yet.)

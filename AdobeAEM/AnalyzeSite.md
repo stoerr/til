@@ -1,4 +1,4 @@
-# Analyze a site
+# How to analyze the component structure of a site
 
 Some ideas how to get an overview over the structure of a site.
 
