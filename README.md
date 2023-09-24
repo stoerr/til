@@ -20,14 +20,17 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## Topics list
 
- [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [Docker](#Docker) [IntelliJIdea](#IntelliJIdea)
+ [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [Docker](#Docker) [DotNet](#DotNet) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM)
 
 ## [AdobeAEM](#AdobeAEM)
 
+* [Unsorted helpful information about Adobe AEM](AdobeAEM/AemMisc.md) - 24-09-2023
 * [Structure analysis of Adobe AEM WKND site](AdobeAEM/AemWKNDStructureReports.md) - 08-08-2023
-* [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 06-09-2023
+* [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-09-2023
+* [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
+* [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023
+* [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 24-09-2023
 * [Content sync to / from JCR for Adobe AEM](AdobeAEM/AemContentSync.md) - 31-08-2023
-* [Analyze a site](AdobeAEM/AnalyzeSite.md) - 15-08-2023
 * [AEM Archetype comments](AdobeAEM/AemArchetypeStuff.md) - 15-08-2023
 
 ## [ApacheSling](#ApacheSling)
@@ -42,8 +45,16 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 * [Various Docker commands](Docker/VariousDockerCommands.md) - 29-08-2023
 
+## [DotNet](#DotNet)
+
+* [General points for developing DotNet on Mac](DotNet/DotNetOnMac.md) - 24-09-2023
+
 ## [IntelliJIdea](#IntelliJIdea)
 
 * [Miscellaneous Stuff about IntelliJ IDEA](IntelliJIdea/IntellJIdeaMisc.md) - 24-08-2023
 * [How to open files in IntelliJ from the MacOS command line](IntelliJIdea/openInIntelliJCommandLine.md) - 24-08-2023
+
+## [LLM](#LLM)
+
+* [LLM Embeddings (usage of tool by Simon Willison)](LLM/llm-embeddings-swillison.md) - 24-09-2023
 

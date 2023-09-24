@@ -1,6 +1,6 @@
-# Analyze a site
+# How to analyze the component structure of a site
 
-Created 08-08-2023, last change 15-08-2023
+Created 08-08-2023, last change 24-09-2023
 
 Some ideas how to get an overview over the structure of a site.
 

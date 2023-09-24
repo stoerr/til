@@ -1,6 +1,6 @@
 # Some relevant info about TouchUI Dialog Creation in Adobe AEM
 
-Created 24-08-2023, last change 06-09-2023
+Created 24-08-2023, last change 24-09-2023
 
 Editing: probably best done with IntelliJ IDEA Live Templates, or a Scala DSL.
 Remember to look at the comments in the JSPs of the granite etc. components - they contain documentation.
@@ -42,3 +42,8 @@ Javascript: CUI.rte...
 For extending component dialogs with Javascript, the clientlib 'cq.authoring.editor.sites.page.hook' is appropriate. 
 Also work: cq.authoring.editor.sites.page (doesn't work for page properties) , cq.authoring.dialog (works for page 
 properties), does not work: cq.authoring.page
+
+### Stacking dialogs
+
+If you create a dialog from a dialog, it seems both get closed. I solved that for Composum AI by event.preventDefault(),
+event.stopPropagation() and removing the dialog HTML. (But I guess there is a better way I don't know yet.)
