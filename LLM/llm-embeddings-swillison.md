@@ -1,20 +1,27 @@
 # LLM Embeddings (usage of tool by Simon Willison)
 
-[Simon Willison]() has a very comprehensive command line tool 
-[llm](https://llm.datasette.io/en/stable/) for working with large language models (both ChatGPT 
-and others, incl. local models). Very recommended! There are just some notes about using LLM embeddings for search 
-in local files, mostly according to his [blog entry about that](https://simonwillison.net/2023/Sep/4/llm-embeddings/).
+[Simon Willison]() has a very comprehensive command line tool
+[llm](https://llm.datasette.io/en/stable/) for working with large language models (both ChatGPT
+and others, incl. local models). Very recommended! There are just some notes about using LLM embeddings for search
+in local files, mostly according to his [blog entry about that](https://simonwillison.net/2023/Sep/4/llm-embeddings/)
+, as well as [this one](https://simonwillison.net/2023/Oct/26/llm-embed-jina/).
 
-## Installation 
+## Installation
 
 See [his blog](https://simonwillison.net/2023/Sep/4/llm-embeddings/). I use homebrew on Macl
 
     brew install llm
+    brew upgrade llm
     llm install -U llm 
-    llm install llm-sentence-transformers 
-    llm sentence-transformers register all-MiniLM-L6-v2
-    llm aliases set minilm sentence-transformers/all-MiniLM-L6-v2
+    llm install -U llm-sentence-transformers 
+    llm sentence-transformers register --lazy -a minilm all-MiniLM-L12-v2
+    llm sentence-transformers register --lazy -a mpnet all-mpnet-base-v2
+    llm install -U llm-embed-jina
+    # llm aliases set minilm sentence-transformers/all-MiniLM-L12-v2
     llm keys set openai
+
+This registers shortcuts `minilm`, `mpnet` for the resp. models, and declares models `jina-embeddings-v2-small-en`,  
+`jina-embeddings-v2-base-en` and `jina-embeddings-v2-large-en` - all of them will be downloaded on first use.
 
 ## Calculate embeddings
 
@@ -34,7 +41,14 @@ Just omit the -d test.db if you like to use your llm database stored in your
 
 ### Store documents
 
-    llm embed-multi til -d til.db -m minilm --store --files . '**/*.md'
+    llm embed-multi til -d til.db -m mpnet --store --files . '**/*.md'
     llm similar til -d til.db -n 5 -c "how to sync content from JCR to AEM"
 
 Argument --store for embed-multi stores the content, but that makes the output of `llm similar` very hard to read.
+
+## Other relevant stuff
+
+Mac M1 and Llama-2 etc:
+https://github.com/simonw/llm-mlc
+
+Generally llm plugins: https://llm.datasette.io/en/stable/plugins/directory.html
