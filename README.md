@@ -20,7 +20,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## Topics list
 
- [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [Docker](#Docker) [DotNet](#DotNet) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM)
+ [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [Docker](#Docker) [DotNet](#DotNet) [Github](#Github) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM)
 
 ## [AdobeAEM](#AdobeAEM)
 
@@ -49,6 +49,10 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 * [General points for developing DotNet on Mac](DotNet/DotNetOnMac.md) - 24-09-2023
 
+## [Github](#Github)
+
+* [Some tipps and experiences with Github Markdown](Github/GithubMarkdownTipps.md) - 26-10-2023
+
 ## [IntelliJIdea](#IntelliJIdea)
 
 * [Miscellaneous Stuff about IntelliJ IDEA](IntelliJIdea/IntellJIdeaMisc.md) - 24-08-2023
@@ -56,5 +60,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## [LLM](#LLM)
 
-* [LLM Embeddings (usage of tool by Simon Willison)](LLM/llm-embeddings-swillison.md) - 24-09-2023
+* [LLM Embeddings (usage of tool by Simon Willison)](LLM/llm-embeddings-swillison.md) - 26-10-2023
+* [Ideas for ChatGPT custom instructions](LLM/custominstructions.md) - 26-10-2023
+* [How to find out ChatGPT's system prompt](LLM/chatgpt-systemprompt.md) - 26-10-2023
 
