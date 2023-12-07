@@ -20,13 +20,14 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## Topics list
 
- [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [Docker](#Docker) [DotNet](#DotNet) [Github](#Github) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM)
+ [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [Docker](#Docker) [DotNet](#DotNet) [Github](#Github) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM) [Misc](#Misc)
 
 ## [AdobeAEM](#AdobeAEM)
 
 * [Unsorted helpful information about Adobe AEM](AdobeAEM/AemMisc.md) - 07-11-2023
 * [Structure analysis of Adobe AEM WKND site](AdobeAEM/AemWKNDStructureReports.md) - 08-08-2023
 * [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-09-2023
+* [Print AEM Clientlib Graph](AdobeAEM/AemClientlibGraph.md) - 07-12-2023
 * [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
 * [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023
 * [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 24-09-2023
@@ -63,4 +64,8 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [LLM Embeddings (usage of tool by Simon Willison)](LLM/llm-embeddings-swillison.md) - 26-10-2023
 * [Ideas for ChatGPT custom instructions](LLM/custominstructions.md) - 07-11-2023
 * [How to find out ChatGPT's system prompt](LLM/chatgpt-systemprompt.md) - 26-10-2023
+
+## [Misc](#Misc)
+
+* [Creating Maven Sites](Misc/MavenSite.md) - 07-12-2023
 
