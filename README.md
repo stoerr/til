@@ -67,5 +67,6 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## [Misc](#Misc)
 
+* [SEO woes](Misc/SEO.md) - 29-12-2023
 * [Creating Maven Sites](Misc/MavenSite.md) - 07-12-2023
 
