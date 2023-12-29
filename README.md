@@ -6,6 +6,8 @@ combination of a kind of micro blog and a personal knowledge database. It's avai
 
 I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.net/) which goes back to [this](https://dev.to/jbranchaud/how-i-built-a-learning-machine-45k9).
 
+[Hans-Peter Störr](http://www.stoerr.net/)
+
 <!-- ## (Google) Site search
 
 ... which will hopefully eventually work, when Google got around indexing this site ...
