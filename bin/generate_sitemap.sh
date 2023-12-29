@@ -17,7 +17,7 @@ for file in $(find . -type f -name "*.md"); do
 
     # Append the entry to the sitemap.xml
 echo "  <url>" >> sitemap.xml
-echo "    <loc>https://stoerr.github.io/til/$html_path</loc>" >> sitemap.xml
+echo "    <loc>https://til.stoerr.net/$html_path</loc>" >> sitemap.xml
 echo "    <lastmod>$last_commit_date</lastmod>" >> sitemap.xml
 echo "  </url>" >> sitemap.xml
 done
