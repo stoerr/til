@@ -2,7 +2,7 @@
 
 A collection of small things that don't warrant a full [blog post](http://hans-peter-stoerr.de/blog.html). This is a
 combination of a kind of micro blog and a personal knowledge database. It's available as a website at 
-[https://stoerr.github.io/til/](https://stoerr.github.io/til/), the source is on [Github](https://github.com/stoerr/til) .
+[https://til.stoerr.net/](https://til.stoerr.net/), the source is on [Github](https://github.com/stoerr/til) .
 
 I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.net/) which goes back to [this](https://dev.to/jbranchaud/how-i-built-a-learning-machine-45k9).
 
@@ -30,7 +30,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [Print AEM Clientlib Graph](AdobeAEM/AemClientlibGraph.md) - 07-12-2023
 * [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
 * [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023
-* [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 24-09-2023
+* [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 19-12-2023
 * [Content sync to / from JCR for Adobe AEM](AdobeAEM/AemContentSync.md) - 31-08-2023
 * [AEM Archetype comments](AdobeAEM/AemArchetypeStuff.md) - 15-08-2023
 
