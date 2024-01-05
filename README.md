@@ -66,7 +66,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [Some experimental results about OpenAI GPTs](LLM/OpenAI-GPTs.md) - 05-01-2024
 * [LLM Embeddings (usage of tool by Simon Willison)](LLM/llm-embeddings-swillison.md) - 26-10-2023
 * [Ideas for ChatGPT custom instructions](LLM/custominstructions.md) - 07-11-2023
-* [How to find out ChatGPT's system prompt](LLM/chatgpt-systemprompt.md) - 26-10-2023
+* [How to find out ChatGPT's system prompt](LLM/chatgpt-systemprompt.md) - 05-01-2024
 
 ## [Misc](#Misc)
 
