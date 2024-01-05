@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/SEO.html</loc>
-    <lastmod>2023-12-29</lastmod>
+    <lastmod>2024-01-05</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Composum/ComposumSiteStructureReports.html</loc>
@@ -23,6 +23,10 @@
   <url>
     <loc>https://til.stoerr.net/LLM/hpsxprompting.html</loc>
     <lastmod></lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/LLM/OpenAI-GPTs.html</loc>
+    <lastmod>2024-01-05</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/LLM/llm-embeddings-swillison.html</loc>
