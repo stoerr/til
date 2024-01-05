@@ -1,5 +1,10 @@
 # Some experimental results about OpenAI GPTs
 
+I've been doing two [OpenAI GPTs](https://openai.com/blog/introducing-gpts).
+[Co-Developer GPT Engine](https://codevelopergptengine.stoerr.net/) and
+[JCR Actions for GPTs](https://github.com/stoerr/JCRActionsForGPT), and some more tests. These are some experiences with
+that.
+
 ## Actions
 
 The OpenAPI descriptions that worked for ChatGPT plugins work immediately with the GPTs. You just have to move the
