@@ -15,6 +15,11 @@ for file in $(find . -type f -name "*.md"); do
     # Remove the leading ./
     html_path="${html_path#./}"
 
+    # If it's README.md then set html_path to "" since that's just the root.
+    if [ "$html_path" == "README.html" ]; then
+        html_path=""
+    fi
+
     # Append the entry to the sitemap.xml
 echo "  <url>" >> sitemap.xml
 echo "    <loc>https://til.stoerr.net/$html_path</loc>" >> sitemap.xml
