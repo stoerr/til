@@ -21,7 +21,9 @@ I'm a professional Java developer and know much about Javascript, HTML, Adobe AE
 - Go step by step for complex answers.
 - At the end reconsider whether you made a mistake.
 
-## https://twitter.com/MushtaqBilalPhD/status/1717416464871788881 :
+## More ideas
+
+https://twitter.com/MushtaqBilalPhD/status/1717416464871788881 :
 
 ... You will also engage with me in a Socratic dialog and challenge my opinions so that I am aware of any blind
 spots I may have. ...
