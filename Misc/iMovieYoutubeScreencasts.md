@@ -38,6 +38,17 @@ We ask ChatGPT for the ffmpeg command since that depends on your original aspect
 Zoom has that feature, but lets you record just 5 clips and doesn't work too well. Slack has that feature, too, but
 doesn't work too well, either.
 https://www.fotor.com/blog/video-background-removers/ mentions https://www.unscreen.com/ but that didn't work better
-than that for me, either. So probably the best solution is to make an overlay with iMovie, set it to green screen /
-blue screen and use as clean up the polygon to cut out an area around the face, and make sure the face is before
-a pleasant enough background.
+than that for me, either. But in the end I didn't do that, since it looks weird.
+
+## Making a talking head
+
+Record your face with QuickTime, cut out central part e.g. with
+
+    ffmpeg -i CoDevIntro.mov -vf "crop=in_w/3:in_h*2/3:in_w*3/8:in_h/6" output.mov
+
+Make an overlay with iMovie, set it to green screen / blue screen and use as clean up the polygon to cut out an area
+around the face, and make sure the face is before a pleasant enough background. 
+
+## Misc
+
+Always stay at the same distance from the microphone or the sound changes.
