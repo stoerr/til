@@ -1,5 +1,7 @@
 # Composum Site Structure
 
+Created 15-08-2023, last change 22-08-2023
+
 This is just the result of some reports according to [AnalyzeSite](../AdobeAEM/AnalyzeSite.md) on some sample sites.
 
 ## Report of primary types and resource types etc.

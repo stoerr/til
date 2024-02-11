@@ -1,5 +1,7 @@
 # Exporting the JCR content to the filesystem
 
+Created 21-08-2023, last change 22-08-2023
+
 If you like to export some content from the JCR to the filesystem, it is possible to create a content package, but 
 that can be troublesome if you want to export much content because that creates a package as large as the content in 
 the JCR. Fortunately, there are several alternatives to that, which just export the content by creating packages on 

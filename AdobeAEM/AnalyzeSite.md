@@ -1,19 +1,31 @@
-# Analyze a site
+# How to analyze the component structure of a site
+
+Created 08-08-2023, last change 19-12-2023
 
 Some ideas how to get an overview over the structure of a site.
 
 ## Structure of components
 
-Deploy from https://github.com/ist-dresden/composum-nodes the xtracts/debugutil , see 
-javadoc of [ComponentDerivationTreeServlet](https://github.com/ist-dresden/composum-nodes/blob/develop/xtracts/debugutil/src/main/java/com/composum/nodes/debugutil/ComponentDerivationTreeServlet.java)
+Deploy from https://github.com/ist-dresden/composum-nodes the xtracts/debugutil , see
+javadoc
+of [Component Tree Derivation Servlet](https://github.com/ist-dresden/composum-nodes/blob/develop/xtracts/debugutil/src/main/java/com/composum/nodes/debugutil/ComponentDerivationTreeServlet.java)
+(You need to add a configuration for the Component Tree Derivation Servlet in the OSGI console to enable it.)
 Mermaid for Github Markdown: http://localhost:4502/bin/cpm/nodes/debug/componenttree.mermaid?regex=wknd
 
 ## Report of primary types and resource types etc.
+
+If you don't have groovy installed yet, you can use this to get the necessary bundles.
+mvn dependency:copy -Dartifact=org.codehaus.groovy:groovy:3.0.19 -DoutputDirectory=.
+mvn dependency:copy -Dartifact=org.codehaus.groovy:groovy-json:3.0.19 -DoutputDirectory=.
+mvn dependency:copy -Dartifact=org.codehaus.groovy:groovy-templates:3.0.19 -DoutputDirectory=.
+mvn dependency:copy -Dartifact=org.apache.sling:org.apache.sling.scripting.groovy:1.2.0 -DoutputDirectory=.
 
 ```groovy
 import org.apache.sling.api.resource.Resource;
 
 void checkPath(String path) {
+    println("\nPath: " + path + "\n\n")
+    
     Map<String, Integer> primtypes = new TreeMap();
     Map<String, Integer> mixins = new TreeMap();
     Map<String, Integer> restypes = new TreeMap();
@@ -26,7 +38,7 @@ void checkPath(String path) {
         primtypes.put(primtype, primtypes.getOrDefault(primtype, 0) + 1)
 
         String[] mix = r.getValueMap().get("jcr:mixinTypes", new String[0])
-        mix.each {m ->
+        mix.each { m ->
             mixins.put(m, mixins.getOrDefault(m, 0) + 1)
         }
 
@@ -35,22 +47,22 @@ void checkPath(String path) {
     }
 
     println "\n\nPrimtypes:"
-    primtypes.entrySet().each {entry ->
+    primtypes.entrySet().each { entry ->
         println entry.getKey() + "\t" + entry.getValue()
     }
 
     println "\n\nMixins:"
-    mixins.entrySet().each {entry ->
+    mixins.entrySet().each { entry ->
         println entry.getKey() + "\t" + entry.getValue()
     }
 
     println "\n\nsling:resourceType sorted by key:"
-    restypes.entrySet().each {entry ->
+    restypes.entrySet().each { entry ->
         println entry.getKey() + "\t" + entry.getValue()
     }
 
     println "\n\nsling:resourceType sorted by count:"
-    restypes.entrySet().sort { a, b -> b.getValue() <=> a.getValue() }.each {entry ->
+    restypes.entrySet().sort { a, b -> b.getValue() <=> a.getValue() }.each { entry ->
         println entry.getKey() + "\t" + entry.getValue()
     }
 }
@@ -60,13 +72,15 @@ checkPath("/content/wknd")
 
 ## Report for attributes and child nodes depending on primary type and sling resource type
 
-Traverse resource tree and report for each pair of "jcr:primaryType" and "sling:resourceType" all attribute names 
+Traverse resource tree and report for each pair of "jcr:primaryType" and "sling:resourceType" all attribute names
 and child node names with their "jcr:primaryType" and "sling:resourceType" that are present on nodes with that pair,
 including percentage of nodes that contain them, sorted by percentage. For example:
 
 nt:unstructured wknd/components/page:
+
 - jcr:primaryType (100%)
 - jcr:mixinTypes (50%)
+
 + root nt:unstructured wknd/components/container (100%)
 
 Lines starting with '-' are attributes, lines starting with '+' are subnodes.
@@ -76,6 +90,8 @@ import org.apache.commons.lang3.tuple.Pair
 import org.apache.sling.api.resource.Resource
 
 void checkPath(String path) {
+    println("\nPath: " + path + "\n\n")
+    
     checkQuery("/jcr:root" + path + "//*")
 }
 
@@ -101,7 +117,7 @@ void checkQuery(String query) {
             childcount.get(key).put(childkey, childcount.get(key).getOrDefault(childkey, 0) + 1)
         }
     }
-    
+
     def excludePattern = ~/(jcr:primaryType|sling:resourceType|cq:lastRolledout(By)?|jcr:lastModified(By)?|jcr:created(By)?)/
 
     nodecount.entrySet().toList().sort { a, b -> b.value <=> a.value }.each { Map.Entry<Pair<String, String>, Integer> entry ->

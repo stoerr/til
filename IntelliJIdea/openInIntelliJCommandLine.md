@@ -1,5 +1,7 @@
 # How to open files in IntelliJ from the MacOS command line
 
+Created 22-08-2023, last change 24-08-2023
+
 There is a nice way to do that with the following shell script. If the argument is a file, it will open that in the
 current project. But if it's a directory, it'll create a new project containing that directory as root, so be careful
 whether that's actually what you want.
