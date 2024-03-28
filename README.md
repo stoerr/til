@@ -72,5 +72,6 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 * [Some hints for screencasts destined for Youtube using iMovie](Misc/iMovieYoutubeScreencasts.md) - 03-02-2024
 * [SEO woes](Misc/SEO.md) - 03-02-2024
+* [How to collect all files of a server in a pom.xml to have them in the IDE](Misc/collectServerFilesInPom.md) - 28-03-2024
 * [Creating Maven Sites](Misc/MavenSite.md) - 07-12-2023
 
