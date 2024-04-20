@@ -115,4 +115,4 @@ the presentation should be done.
 
 If there is no cropping needed e.g. as follows, else see above.
 
-    ffmpeg -i input.mp4 -c:v libx264 -preset slow -crf 23 -c:a copy output.mp4
+    ffmpeg -c:v libx264 -preset slow -crf 23 -c:a copy -i input.mp4 output.mp4
