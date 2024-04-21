@@ -14,6 +14,6 @@ STORE=""
 MODEL="3-large"
 
 llm embed-multi til -d db/llmsearch.db -m $MODEL $STORE --files . '**/*.md'
-llm embed-multi til -d db/llmsearch.db -m $MODEL $STORE --files . '**/src/**/*.java'
-llm embed-multi til -d db/llmsearch.db -m $MODEL $STORE --files . '**/src/**/*.js'
-llm embed-multi til -d db/llmsearch.db -m $MODEL $STORE --files . '**/src/**/*.html'
+# llm embed-multi til -d db/llmsearch.db -m $MODEL $STORE --files . '**/src/**/*.java'
+# llm embed-multi til -d db/llmsearch.db -m $MODEL $STORE --files . '**/src/**/*.js'
+# llm embed-multi til -d db/llmsearch.db -m $MODEL $STORE --files . '**/src/**/*.html'
