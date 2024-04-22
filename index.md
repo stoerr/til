@@ -14,5 +14,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 </script>
 <div class="gcse-search"></div>
 
+
+
 <!-- After that line the rest is generated from makeindex.sh from github workflow  -->
 <!-- index start -->
