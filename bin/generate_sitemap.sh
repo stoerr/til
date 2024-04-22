@@ -15,8 +15,13 @@ for file in $(find . -type f -name "*.md"); do
     # Remove the leading ./
     html_path="${html_path#./}"
 
-    # If it's README.md then set html_path to "" since that's just the root.
+    # Ignore README.md
     if [ "$html_path" == "README.html" ]; then
+        continue
+    fi
+
+    # If it's index.md then set html_path to "" since that's just the root.
+    if [ "$html_path" == "index.html" ]; then
         html_path=""
     fi
 

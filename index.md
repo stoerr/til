@@ -1,7 +1,5 @@
 # TIL (Things / Today I've learned)
 
-readme
-
 A collection of small things that don't warrant a full [blog post](http://hans-peter-stoerr.de/blog.html). This is a
 combination of a kind of micro blog and a personal knowledge database. It's available as a website at 
 [https://til.stoerr.net/](https://til.stoerr.net/), the source is on [Github](https://github.com/stoerr/til) .
