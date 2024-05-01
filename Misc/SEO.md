@@ -37,3 +37,5 @@ if you want being twitter optimized there are also the twitter: pendants , thoug
 [Probably](https://sproutsocial.com/insights/twitter-cards/)
 <meta name=”twitter:card” content=”summary” /> 
 is right for that image format, if you use the same image.
+
+[opengraph.xyz](https://www.opengraph.xyz/) is not only a validator but also generates suggestions for the tags. 
