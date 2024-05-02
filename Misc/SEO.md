@@ -1,6 +1,6 @@
 # SEO woes
 
-Created 29-12-2023, last change 03-02-2024
+Created 29-12-2023, last change 01-05-2024
 
 Since Google has been basically ignoring me (indexing new pages always took many months despite me serving a
 pre-digested sitemap.xml), I have trying to improve SEO for my site www.stoerr.net once in a while. Here are some random
@@ -39,3 +39,5 @@ if you want being twitter optimized there are also the twitter: pendants , thoug
 [Probably](https://sproutsocial.com/insights/twitter-cards/)
 <meta name=”twitter:card” content=”summary” /> 
 is right for that image format, if you use the same image.
+
+[opengraph.xyz](https://www.opengraph.xyz/) is not only a validator but also generates suggestions for the tags. 

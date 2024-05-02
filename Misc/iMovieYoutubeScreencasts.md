@@ -1,6 +1,6 @@
 # Some hints for screencasts destined for Youtube using iMovie
 
-Created 13-01-2024, last change 03-02-2024
+Created 13-01-2024, last change 01-05-2024
 
 Some stuff I learned producing [this screencast](https://youtu.be/ubBhv2PUSEs).
 

@@ -1,103 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://til.stoerr.net/LLM/llm-embeddings-swillison.html</loc>
-    <lastmod>2023-10-26</lastmod>
+    <loc>https://til.stoerr.net/AdobeAEM/AemClientlibGraph.html</loc>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/LLM/custominstructions.html</loc>
-    <lastmod>2024-01-13</lastmod>
+    <loc>https://til.stoerr.net/AdobeAEM/AemArchetypeStuff.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemJavascriptMisc.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemMisc.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemContentSync.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AnalyzeSite.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemWKNDStructureReports.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemTouchUIDialogStuff.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemSidebarExtension.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/DotNet/DotNetOnMac.html</loc>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/LLM/chatgpt-systemprompt.html</loc>
-    <lastmod>2024-01-05</lastmod>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/LLM/OpenAI-GPTs.html</loc>
-    <lastmod>2024-01-05</lastmod>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/LLM/custominstructions.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/LLM/llm-embeddings-swillison.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/</loc>
+    <lastmod>2024-04-22</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Github/GithubMarkdownTipps.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Composum/ComposumSiteStructureReports.html</loc>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Docker/VariousDockerCommands.html</loc>
-    <lastmod>2023-09-06</lastmod>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/ideas.html</loc>
     <lastmod>2024-01-05</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AnalyzeSite.html</loc>
-    <lastmod>2023-12-19</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemSidebarExtension.html</loc>
-    <lastmod>2023-09-24</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemMisc.html</loc>
-    <lastmod>2023-11-07</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemTouchUIDialogStuff.html</loc>
-    <lastmod>2023-09-24</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemJavascriptMisc.html</loc>
-    <lastmod>2023-09-24</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemClientlibGraph.html</loc>
-    <lastmod>2023-12-07</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemContentSync.html</loc>
-    <lastmod>2023-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemArchetypeStuff.html</loc>
-    <lastmod>2023-08-22</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemWKNDStructureReports.html</loc>
-    <lastmod>2023-08-22</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Composum/ComposumSiteStructureReports.html</loc>
-    <lastmod>2023-08-22</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/DotNet/DotNetOnMac.html</loc>
-    <lastmod>2023-09-24</lastmod>
-  </url>
-  <url>
     <loc>https://til.stoerr.net/ApacheSling/ContentExportToFilesystem.html</loc>
-    <lastmod>2023-08-22</lastmod>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/IntelliJIdea/IntellJIdeaMisc.html</loc>
-    <lastmod>2023-08-24</lastmod>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/IntelliJIdea/openInIntelliJCommandLine.html</loc>
-    <lastmod>2023-08-24</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Misc/MavenSite.html</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/SEO.html</loc>
-    <lastmod>2024-02-03</lastmod>
+    <lastmod>2024-05-02</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Misc/collectServerFilesInPom.html</loc>
+    <lastmod>2024-03-28</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/iMovieYoutubeScreencasts.html</loc>
-    <lastmod>2024-02-03</lastmod>
+    <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/</loc>
-    <lastmod>2023-12-29</lastmod>
+    <loc>https://til.stoerr.net/Misc/bashstuff.html</loc>
+    <lastmod>2024-04-21</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/Github/GithubMarkdownTipps.html</loc>
-    <lastmod>2023-10-26</lastmod>
+    <loc>https://til.stoerr.net/Misc/MavenSite.html</loc>
+    <lastmod>2024-02-11</lastmod>
   </url>
 </urlset>
