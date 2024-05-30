@@ -71,8 +71,10 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 ## [Misc](#Misc)
 
 * [Some hints for screencasts destined for Youtube using iMovie](Misc/iMovieYoutubeScreencasts.md) - 01-05-2024
+* [SQLite stuff](Misc/sqlite.md) - 30-05-2024
 * [SEO woes](Misc/SEO.md) - 01-05-2024
 * [Interesting tricks about bash](Misc/bashstuff.md) - 20-04-2024
 * [How to collect all files of a server in a pom.xml to have them in the IDE](Misc/collectServerFilesInPom.md) - 28-03-2024
 * [Creating Maven Sites](Misc/MavenSite.md) - 07-12-2023
+* [AI Meetups in Dresden, Germany](Misc/AI-Meetups-Dresden.md) - 30-05-2024
 
