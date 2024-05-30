@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://til.stoerr.net/Misc/AI-Meetups-Dresden.html</loc>
+    <lastmod></lastmod>
+  </url>
+  <url>
     <loc>https://til.stoerr.net/Misc/iMovieYoutubeScreencasts.html</loc>
-    <lastmod>2024-04-21</lastmod>
+    <lastmod>2024-05-01</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/MavenSite.html</loc>
@@ -14,7 +18,11 @@
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/SEO.html</loc>
-    <lastmod>2024-02-03</lastmod>
+    <lastmod>2024-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Misc/sqlite.html</loc>
+    <lastmod></lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/bashstuff.html</loc>
