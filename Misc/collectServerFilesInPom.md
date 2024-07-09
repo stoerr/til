@@ -3,7 +3,7 @@
 Sometimes you want all JARs that are in a server to be available in your IDE - e.g. if you want to test or debugsome 
 code that uses deployed code but like to run it outside of the server itself. Here is a script that
 creates a `pom.xml` with all JARs of a server in it. You might need to adjust it to your needs.
-To be run in the top directory of the server.
+Here is a script `GenerateServerPom.groovy` to be run with command line groovy in the top directory of the server.
 
 ```groovy
 import java.util.zip.ZipEntry

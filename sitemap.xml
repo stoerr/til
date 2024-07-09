@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://til.stoerr.net/Misc/AI-Meetups-Dresden.html</loc>
-    <lastmod></lastmod>
+    <lastmod>2024-05-30</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/iMovieYoutubeScreencasts.html</loc>
@@ -22,15 +22,11 @@
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/sqlite.html</loc>
-    <lastmod></lastmod>
+    <lastmod>2024-05-30</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/bashstuff.html</loc>
     <lastmod>2024-04-21</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Composum/ComposumSiteStructureReports.html</loc>
-    <lastmod>2023-08-22</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Docker/VariousDockerCommands.html</loc>
