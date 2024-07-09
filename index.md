@@ -22,7 +22,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## Topics list
 
- [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Composum](#Composum) [Docker](#Docker) [DotNet](#DotNet) [Github](#Github) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM) [Misc](#Misc)
+ [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Docker](#Docker) [DotNet](#DotNet) [Github](#Github) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM) [Misc](#Misc)
 
 ## [AdobeAEM](#AdobeAEM)
 
@@ -39,10 +39,6 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 ## [ApacheSling](#ApacheSling)
 
 * [Exporting the JCR content to the filesystem](ApacheSling/ContentExportToFilesystem.md) - 22-08-2023
-
-## [Composum](#Composum)
-
-* [Composum Site Structure](Composum/ComposumSiteStructureReports.md) - 22-08-2023
 
 ## [Docker](#Docker)
 
@@ -74,7 +70,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [SQLite stuff](Misc/sqlite.md) - 30-05-2024
 * [SEO woes](Misc/SEO.md) - 01-05-2024
 * [Interesting tricks about bash](Misc/bashstuff.md) - 20-04-2024
-* [How to collect all files of a server in a pom.xml to have them in the IDE](Misc/collectServerFilesInPom.md) - 28-03-2024
+* [How to collect all files of a server in a pom.xml to have them in the IDE](Misc/collectServerFilesInPom.md) - 09-07-2024
 * [Creating Maven Sites](Misc/MavenSite.md) - 07-12-2023
 * [AI Meetups in Dresden, Germany](Misc/AI-Meetups-Dresden.md) - 30-05-2024
 
