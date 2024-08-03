@@ -29,6 +29,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [Unsorted helpful information about Adobe AEM](AdobeAEM/AemMisc.md) - 07-11-2023
 * [Structure analysis of Adobe AEM WKND site](AdobeAEM/AemWKNDStructureReports.md) - 08-08-2023
 * [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-09-2023
+* [Some links / insights about AEM workflows](AdobeAEM/AemWorkflows.md) - 03-08-2024
 * [Print AEM Clientlib Graph](AdobeAEM/AemClientlibGraph.md) - 07-12-2023
 * [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
 * [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023

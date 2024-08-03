@@ -6,10 +6,10 @@ if test -L "$progfile"; then
   progfile=$(readlink "$progfile")
 fi
 progdir=$(dirname "$progfile")/..
-cd $progdir
+cd $progdir || exit 3
 
-# STORE="--store"
-STORE=""
+STORE="--store"
+# STORE=""
 #MODEL="minilm"
 MODEL="3-large"
 
