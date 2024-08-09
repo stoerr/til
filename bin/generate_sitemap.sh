@@ -6,6 +6,11 @@ echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.x
 
 # For each .md file in the repository
 for file in $(find . -type f -name "*.md"); do
+    # If file name starts with hpsx, skip it
+    if [[ $file == "./hpsx"* ]]; then
+        continue
+    fi
+
     # Get the last commit date for the file
     last_commit_date=$(git log -1 --format=%cd --date=format:'%Y-%m-%d' -- "$file")
     
