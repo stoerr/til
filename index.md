@@ -70,6 +70,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [Some hints for screencasts destined for Youtube using iMovie](Misc/iMovieYoutubeScreencasts.md) - 01-05-2024
 * [SQLite stuff](Misc/sqlite.md) - 30-05-2024
 * [SEO woes](Misc/SEO.md) - 01-05-2024
+* [Logfile Analysis](Misc/LogfileAnalysis.md) - 30-08-2024
 * [Interesting tricks about bash](Misc/bashstuff.md) - 20-04-2024
 * [How to collect all files of a server in a pom.xml to have them in the IDE](Misc/collectServerFilesInPom.md) - 09-07-2024
 * [Creating Maven Sites](Misc/MavenSite.md) - 07-12-2023
