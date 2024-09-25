@@ -22,7 +22,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## Topics list
 
- [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Docker](#Docker) [DotNet](#DotNet) [Github](#Github) [IntelliJIdea](#IntelliJIdea) [LLM](#LLM) [Misc](#Misc)
+ [AdobeAEM](#AdobeAEM) [ApacheSling](#ApacheSling) [Docker](#Docker) [DotNet](#DotNet) [Github](#Github) [IntelliJIdea](#IntelliJIdea) [Javascript](#Javascript) [LLM](#LLM) [Misc](#Misc)
 
 ## [AdobeAEM](#AdobeAEM)
 
@@ -31,6 +31,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-09-2023
 * [Some links / insights about AEM workflows](AdobeAEM/AemWorkflows.md) - 03-08-2024
 * [Print AEM Clientlib Graph](AdobeAEM/AemClientlibGraph.md) - 07-12-2023
+* [Notes about AEM Live Copies](AdobeAEM/AEMLiveCopy.md) - 24-09-2024
 * [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
 * [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023
 * [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 19-12-2023
@@ -57,6 +58,10 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 * [Miscellaneous Stuff about IntelliJ IDEA](IntelliJIdea/IntellJIdeaMisc.md) - 24-08-2023
 * [How to open files in IntelliJ from the MacOS command line](IntelliJIdea/openInIntelliJCommandLine.md) - 24-08-2023
+
+## [Javascript](#Javascript)
+
+* [Miscellaneous about Vue.js](Javascript/VueMisc.md) - 24-09-2024
 
 ## [LLM](#LLM)
 
