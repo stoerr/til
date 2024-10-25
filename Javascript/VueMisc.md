@@ -20,3 +20,5 @@ Tutorial: https://vuejs.org/tutorial/
   :msg="greeting" />
 - messages child component to parent : defineEmits , v-on on parent
 - slots: content of child element as used in parent : <slot/>
+- references to components: create a ref() , add ref="thatref" to the component and use this.$refs.thatref
+- export functions mit defineExpose({functionname}) to expose functions to parent for use with this.$refs
