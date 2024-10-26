@@ -61,7 +61,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 ## [Javascript](#Javascript)
 
-* [Miscellaneous about Vue.js](Javascript/VueMisc.md) - 24-09-2024
+* [Miscellaneous about Vue.js](Javascript/VueMisc.md) - 25-10-2024
 
 ## [LLM](#LLM)
 

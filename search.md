@@ -14,7 +14,10 @@ Unfortunately Google is very slow on the uptake, so that doesn't work well.
 
 This uses embeddings for searching. Does require an OpenAI API key (which is only stored locally on your own computer).
 
+<p>
 <input type="text" id="search" placeholder="Describe what you are looking for" style="width: 75%"/>
+<button class="btn" id="searchButton">Search</button>
+</p>
 
 ## Search results
 
