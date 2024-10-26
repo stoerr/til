@@ -1,6 +1,5 @@
 console.log("SearchImpl.js loaded");
 
-let links = [];
 let embeddings = [];
 let uniqueCategories = new Set();
 var markdownConverter = new showdown.Converter();
@@ -9,35 +8,12 @@ var markdownConverter = new showdown.Converter();
 // Fetch JSON files on page load
 window.addEventListener('load', async () => {
     const nocache = Math.floor(new Date().getTime() / 86400000);
-    const linksResponse = await fetch('/db/links.json?nocache=' + nocache);
-    links = await linksResponse.json();
-
     const embeddingsResponse = await fetch('/db/embeddings.json?nocache=' + nocache);
     embeddings = await embeddingsResponse.json();
 
     // Decode base64 embeddings
     embeddings.forEach(embedding => {
         embedding.embedding = decodeBase64(embedding.embedding.encoded);
-    });
-
-    // Extract unique categories
-    links.forEach(link => {
-        link.category.forEach(cat => uniqueCategories.add(cat));
-    });
-
-    // Sort unique categories
-    uniqueCategories = Array.from(uniqueCategories).sort();
-
-    // Display category links
-    displayCategoryLinks();
-
-    // Add event listener to body for category links
-    document.body.addEventListener('click', event => {
-        if (event.target.classList.contains('category-link')) {
-            event.preventDefault();
-            const category = event.target.dataset.category;
-            displayCategoryResults(category);
-        }
     });
 });
 
@@ -64,6 +40,7 @@ async function triggerSearch(event) {
 
     // Sort results by similarity
     results.sort((a, b) => b.similarity - a.similarity);
+    debugger;
 
     displayResults(results.slice(0, 10));
 }
@@ -113,22 +90,10 @@ function cosineSimilarity(vecA, vecB) {
 }
 
 function displayResults(results) {
-    // map each result to links.find(link => link.filepath === result.id);
-    const resultLinks = results.map(result => links.find(link => link.filepath === result.id));
-
-    displayLinks(resultLinks);
-}
-
-function displayCategoryResults(category) {
-    const categoryLinks = links.filter(link => link.category.includes(category));
-    displayLinks(categoryLinks);
-}
-
-function displayLinks(displayedLinks) {
     const linksContainer = document.getElementById('links');
     linksContainer.innerHTML = '';
 
-    displayedLinks.forEach(link => {
+    results.forEach(link => {
         const linkDescrUrl = link.filepath.replace('.md', '.html');
         const linkElement = document.createElement('div');
         linkElement.classList.add('linkDisplay');
@@ -147,24 +112,6 @@ function displayLinks(displayedLinks) {
 
     // scroll so that #search-result is on top of the visible window
     document.getElementById('search-result').scrollIntoView();
-}
-
-function displayCategoryLinks() {
-    const categoriesContainer = document.querySelector('div#categories');
-    if (!categoriesContainer) return;
-
-    categoriesContainer.innerHTML = '';
-
-    uniqueCategories.forEach(category => {
-        const categoryElement = document.createElement('a');
-        categoryElement.href = '#';
-        categoryElement.classList.add('category-link');
-        categoryElement.dataset.category = category;
-        categoryElement.textContent = `#${category}`;
-        categoriesContainer.appendChild(categoryElement);
-        // add a space between categories
-        categoriesContainer.appendChild(document.createTextNode(' '));
-    });
 }
 
 console.log("SearchImpl.js done");
