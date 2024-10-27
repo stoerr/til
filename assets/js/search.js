@@ -41,7 +41,7 @@ async function triggerSearch(event) {
     // Sort results by similarity
     results.sort((a, b) => b.similarity - a.similarity);
 
-    displayResults(results.slice(0, 10));
+    displayResults(results.slice(0, 25));
 }
 
 async function getQueryEmbedding(query) {
@@ -97,15 +97,11 @@ function displayResults(results) {
         const linkDescrUrl = link.id.replace('.md', '.html');
         const linkElement = document.createElement('div');
         linkElement.classList.add('linkDisplay');
-        const title = link?.content?.split('\n')[0] || linkDescrUrl;
-        const summary = link?.content?.split('\n')[2];
-        const text = link?.content?.split('\n')?.slice(10)?.join('<br>');
+        var title = link?.content?.split('\n')[0] || linkDescrUrl;
+        // remove a '# ' prefix if present
+        title = title.replace(/^#+ +/, '');
         linkElement.innerHTML = `
-            <h2><a href="/${linkDescrUrl}">${title} (${Math.round(link.similarity * 100)} %)</a></h2>
-            <details>
-                <summary>${summary}</summary>
-                <p>${markdownConverter.makeHtml(text)}</p>
-            </details>
+            <li><a href="/${linkDescrUrl}">${title} (${Math.round(link.similarity * 100)} %)</a><li>
         `;
         linksContainer.appendChild(linkElement);
     });

@@ -21,4 +21,4 @@ This uses embeddings for searching. Does require an OpenAI API key (which is onl
 
 ## Search results
 
-<div id="search-result"></div>
+<ul id="search-result"></ul>
