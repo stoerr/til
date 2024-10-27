@@ -2,7 +2,6 @@ console.log("SearchImpl.js loaded");
 
 let embeddings = [];
 let uniqueCategories = new Set();
-var markdownConverter = new showdown.Converter();
 
 
 // Fetch JSON files on page load
@@ -92,6 +91,7 @@ function cosineSimilarity(vecA, vecB) {
 function displayResults(results) {
     const linksContainer = document.getElementById('links');
     linksContainer.innerHTML = '';
+    const markdownConverter = new showdown.Converter();
 
     results.forEach(link => {
         const linkDescrUrl = link.filepath.replace('.md', '.html');
