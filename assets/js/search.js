@@ -39,7 +39,6 @@ async function triggerSearch(event) {
 
     // Sort results by similarity
     results.sort((a, b) => b.similarity - a.similarity);
-    debugger;
 
     displayResults(results.slice(0, 10));
 }
