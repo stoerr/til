@@ -12,7 +12,8 @@ Unfortunately Google is very slow on the uptake, so that doesn't work well.
 
 ## AI supported search
 
-This uses embeddings for searching. It does require an OpenAI API key to create an embedding for your query. It is 
+This uses embeddings for searching. It does require an [OpenAI API key](https://platform.openai.com/api-keys) 
+to create an embedding for your query. It is 
 stored locally on your computer (local storage in the browser).
 
 <p>
@@ -22,4 +23,43 @@ stored locally on your computer (local storage in the browser).
 
 ## Search results
 
-<ul id="search-result"></ul>
+<ul id="search-result">
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+</ul>
+
+&nbsp;
