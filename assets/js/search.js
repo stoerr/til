@@ -95,13 +95,13 @@ function displayResults(results) {
 
     results.forEach(link => {
         const linkDescrUrl = link.id.replace('.md', '.html');
-        const linkElement = document.createElement('div');
+        const linkElement = document.createElement('li');
         linkElement.classList.add('linkDisplay');
         var title = link?.content?.split('\n')[0] || linkDescrUrl;
         // remove a '# ' prefix if present
         title = title.replace(/^#+ +/, '');
         linkElement.innerHTML = `
-            <li><a href="/${linkDescrUrl}">${title} (${Math.round(link.similarity * 100)} %)</a><li>
+            <a href="/${linkDescrUrl}">${title} (${Math.round(link.similarity * 100)} %)</a>
         `;
         linksContainer.appendChild(linkElement);
     });

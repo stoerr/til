@@ -12,7 +12,8 @@ Unfortunately Google is very slow on the uptake, so that doesn't work well.
 
 ## AI supported search
 
-This uses embeddings for searching. Does require an OpenAI API key (which is only stored locally on your own computer).
+This uses embeddings for searching. It does require an OpenAI API key to create an embedding for your query. It is 
+stored locally on your computer (local storage in the browser).
 
 <p>
 <input type="text" id="search" placeholder="Describe what you are looking for" style="width: 75%"/>
