@@ -33,6 +33,7 @@ async function triggerSearch(event) {
     const results = embeddings.map(embedding => {
         return {
             id: embedding.id,
+            content: embedding.content,
             similarity: cosineSimilarity(queryEmbedding, embedding.embedding)
         };
     });
@@ -88,7 +89,7 @@ function cosineSimilarity(vecA, vecB) {
 }
 
 function displayResults(results) {
-    const linksContainer = document.getElementById('links');
+    const linksContainer = document.getElementById('search-result');
     linksContainer.innerHTML = '';
     const markdownConverter = new showdown.Converter();
 
@@ -100,7 +101,7 @@ function displayResults(results) {
         const summary = link?.content?.split('\n')[2];
         const text = link?.content?.split('\n')?.slice(10)?.join('<br>');
         linkElement.innerHTML = `
-            <h2><a href="/${linkDescrUrl}">${title}</a></h2>
+            <h2><a href="/${linkDescrUrl}">${title} (${Math.round(link.similarity * 100)} %)</a></h2>
             <details>
                 <summary>${summary}</summary>
                 <p>${markdownConverter.makeHtml(text)}</p>
@@ -108,9 +109,7 @@ function displayResults(results) {
         `;
         linksContainer.appendChild(linkElement);
     });
-
-    // scroll so that #search-result is on top of the visible window
-    document.getElementById('search-result').scrollIntoView();
+    linksContainer.scrollIntoView();
 }
 
 console.log("SearchImpl.js done");
