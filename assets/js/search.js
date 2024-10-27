@@ -94,14 +94,14 @@ function displayResults(results) {
     const markdownConverter = new showdown.Converter();
 
     results.forEach(link => {
-        const linkDescrUrl = link.filepath.replace('.md', '.html');
+        const linkDescrUrl = link.id.replace('.md', '.html');
         const linkElement = document.createElement('div');
         linkElement.classList.add('linkDisplay');
-        const summary = link.description ? link.description : link.text.split('\n')[2];
-        const text = link.description ? link.text : link.text.split('\n').slice(3).join('<br>');
+        const title = link?.content?.split('\n')[0] || linkDescrUrl;
+        const summary = link?.content?.split('\n')[2];
+        const text = link?.content?.split('\n')?.slice(10)?.join('<br>');
         linkElement.innerHTML = `
-            <h2><a href="/${linkDescrUrl}">${link.title}</a> <a href="${link.url}">[&#8599;]</a></h2>
-            <p>${link.category.map(cat => `<a href="#" class="category-link" data-category="${cat}">#${cat}</a>`).join(', ')}</p>
+            <h2><a href="/${linkDescrUrl}">${title}</a></h2>
             <details>
                 <summary>${summary}</summary>
                 <p>${markdownConverter.makeHtml(text)}</p>
