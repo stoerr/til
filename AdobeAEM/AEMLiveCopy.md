@@ -36,3 +36,4 @@ if (dryRun == false) {
 
 - If a page is deleted it's excluded from the livecopy. To be recreated this exclusion has to be removed (root page
   properties at Live Copy tab).
+- CAUTION: The rolled out components a live copy page also have a cq:LiveRelationship mixin. -> more is necessary

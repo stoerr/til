@@ -8,6 +8,9 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 [Hans-Peter Störr](http://www.stoerr.net/)
 
+Here is a Google site search which doesn't work too well since Google is very slow at indexing. There is also
+an [AI (embedding) based search](search.md).
+
 <!-- ## (Google) Site search -->
 
 <script async src="https://cse.google.com/cse.js?cx=50c32160562ff4d71">
