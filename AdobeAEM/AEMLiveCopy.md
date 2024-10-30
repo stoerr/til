@@ -1,6 +1,6 @@
 # Notes about AEM Live Copies
 
-Created 24-09-2024, last change 24-09-2024
+Created 24-09-2024, last change 30-10-2024
 
 ## Manually attaching live copies
 
@@ -38,3 +38,4 @@ if (dryRun == false) {
 
 - If a page is deleted it's excluded from the livecopy. To be recreated this exclusion has to be removed (root page
   properties at Live Copy tab).
+- CAUTION: The rolled out components a live copy page also have a cq:LiveRelationship mixin. -> more is necessary

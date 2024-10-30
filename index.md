@@ -8,6 +8,9 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 
 [Hans-Peter Störr](http://www.stoerr.net/)
 
+Here is a Google site search which doesn't work too well since Google is very slow at indexing. There is also
+an [AI (embedding) based search](search.md).
+
 <!-- ## (Google) Site search -->
 
 <script async src="https://cse.google.com/cse.js?cx=50c32160562ff4d71">
@@ -31,7 +34,7 @@ I got that idea from Simon Willisons impressive [TIL](https://til.simonwillison.
 * [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-09-2023
 * [Some links / insights about AEM workflows](AdobeAEM/AemWorkflows.md) - 03-08-2024
 * [Print AEM Clientlib Graph](AdobeAEM/AemClientlibGraph.md) - 07-12-2023
-* [Notes about AEM Live Copies](AdobeAEM/AEMLiveCopy.md) - 24-09-2024
+* [Notes about AEM Live Copies](AdobeAEM/AEMLiveCopy.md) - 30-10-2024
 * [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
 * [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023
 * [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 19-12-2023
