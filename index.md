@@ -38,7 +38,7 @@ an [AI (embedding) based search](search.md).
 * [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
 * [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023
 * [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 19-12-2023
-* [Content sync to / from JCR for Adobe AEM](AdobeAEM/AemContentSync.md) - 31-08-2023
+* [Content sync to / from JCR for Adobe AEM](AdobeAEM/AemContentSync.md) - 10-01-2025
 * [AEM Archetype comments](AdobeAEM/AemArchetypeStuff.md) - 15-08-2023
 
 ## [ApacheSling](#ApacheSling)
