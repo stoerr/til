@@ -4,7 +4,7 @@ Created 31-08-2023, last change 10-01-2025
 
 ## AEM Plugin for IntelliJ IDEA
 
-https://plugins.jetbrains.com/plugin/9269-aem-ide
+The [AEM Plugin](https://plugins.jetbrains.com/plugin/9269-aem-ide) for Intellij
 is a payed plugin, but has many nice features and is alse able to sync automatically content from the local 
 filesystem to the JCR in your local server.
 
@@ -14,11 +14,14 @@ See README.md there ; command line `npm run watch` watches JS/CSS permanently an
 
 ## aemsync npm package
 
-command line tool to set up local file system to AEM server sync for a directory
-https://www.npmjs.com/package/aemsync
+[aemsync](https://www.npmjs.com/package/aemsync) is command line tool to set up local file system to AEM server sync 
+for a directory
+
 
 ## repo tool
 
-https://github.com/Adobe-Marketing-Cloud/homebrew-brews 
+https://github.com/Adobe-Marketing-Cloud/homebrew-brews
 brew install adobe-marketing-cloud/brews/repo
+
+description [is here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/repo-tool)
 
