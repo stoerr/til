@@ -27,9 +27,8 @@ object StacktraceCounter {
     def isLogEntryStart(line: String) = //line.matches("""^(202[0-9]-[01]\d-[0-3]\d|[0-3]\d\.[01]\d\.202[0-9] ).*""")
       line.matches("""^\s*([0-9]{1,4}[-:., ]+){6,7}.*""") // rough but probably matches many formats
 
-    // possibly also com.adobe|com.day.cq
-    val uninterestingStackLines = ("""at java.lang.reflect|at org.apache.sling|at org.eclipse.jetty|at org.apache.jackrabbit|at org.apache.felix|at java.base/|org.quartz|org.apache.hc|at org.springframework|at \S+\$|at jdk.internal""").r
-
+    val uninterestingStackLines = ("""at java.lang.reflect|at org.apache.sling|at org.eclipse.jetty|at org.apache.jackrabbit|at org.apache.felix|at java.base/|org.quartz|org.apache.hc|at org.springframework|at \S+\$|at jdk.internal|at com.day|at com.adobe|at io.wcm|at libs.cq|at jakarta.servlet|at javax.servlet""").r
+    
     def groupToLogMessages(lines: Iterator[String]) =
       new Iterator[List[String]] {
         private val it = lines.dropWhile(!isLogEntryStart(_)).buffered

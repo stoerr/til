@@ -19,6 +19,7 @@ for a directory
 ## repo tool
 
 https://github.com/Adobe-Marketing-Cloud/homebrew-brews
+
 brew install adobe-marketing-cloud/brews/repo
 
 description [is here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/repo-tool)
