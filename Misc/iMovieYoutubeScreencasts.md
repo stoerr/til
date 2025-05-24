@@ -116,3 +116,7 @@ the presentation should be done.
 If there is no cropping needed e.g. as follows, else see above.
 
     ffmpeg -i input.mp4 -c:v libx264 -preset slow -crf 23 -c:a copy output.mp4
+
+If you want to add a noise gate to reduce microphone noise you can instead use:
+
+    ffpmeg -i input.mp4 -c:v libx264 -preset slow -crf 23 -af "agate=threshold=-30dB:attack=20:release=300" output.mp4
