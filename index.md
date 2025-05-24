@@ -34,11 +34,11 @@ an [AI (embedding) based search](search.md).
 * [Some relevant info about TouchUI Dialog Creation in Adobe AEM](AdobeAEM/AemTouchUIDialogStuff.md) - 24-09-2023
 * [Some links / insights about AEM workflows](AdobeAEM/AemWorkflows.md) - 03-08-2024
 * [Print AEM Clientlib Graph](AdobeAEM/AemClientlibGraph.md) - 07-12-2023
-* [Notes about AEM Live Copies](AdobeAEM/AEMLiveCopy.md) - 30-10-2024
+* [Notes about AEM Live Copies](AdobeAEM/AEMLiveCopy.md) - 24-05-2025
 * [Miscellaneous points about Adobe AEM Javascript](AdobeAEM/AemJavascriptMisc.md) - 24-09-2023
 * [How to extend the AEM Side Panel](AdobeAEM/AemSidebarExtension.md) - 24-09-2023
 * [How to analyze the component structure of a site](AdobeAEM/AnalyzeSite.md) - 19-12-2023
-* [Content sync to / from JCR for Adobe AEM](AdobeAEM/AemContentSync.md) - 10-01-2025
+* [Content sync to / from JCR for Adobe AEM](AdobeAEM/AemContentSync.md) - 24-05-2025
 * [AEM Archetype comments](AdobeAEM/AemArchetypeStuff.md) - 15-08-2023
 
 ## [ApacheSling](#ApacheSling)
@@ -65,6 +65,7 @@ an [AI (embedding) based search](search.md).
 ## [Javascript](#Javascript)
 
 * [Miscellaneous about Vue.js](Javascript/VueMisc.md) - 25-10-2024
+* [Creating Javascript Bookmarklets](Javascript/Bookmarklets.md) - 24-05-2025
 
 ## [LLM](#LLM)
 
@@ -75,10 +76,10 @@ an [AI (embedding) based search](search.md).
 
 ## [Misc](#Misc)
 
-* [Some hints for screencasts destined for Youtube using iMovie](Misc/iMovieYoutubeScreencasts.md) - 01-05-2024
+* [Some hints for screencasts destined for Youtube using iMovie](Misc/iMovieYoutubeScreencasts.md) - 24-05-2025
 * [SQLite stuff](Misc/sqlite.md) - 30-05-2024
 * [SEO woes](Misc/SEO.md) - 01-05-2024
-* [Logfile Analysis](Misc/LogfileAnalysis.md) - 30-08-2024
+* [Logfile Analysis](Misc/LogfileAnalysis.md) - 02-02-2025
 * [Interesting tricks about bash](Misc/bashstuff.md) - 20-04-2024
 * [How to collect all files of a server in a pom.xml to have them in the IDE](Misc/collectServerFilesInPom.md) - 09-07-2024
 * [Creating Maven Sites](Misc/MavenSite.md) - 07-12-2023

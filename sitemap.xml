@@ -1,75 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://til.stoerr.net/</loc>
-    <lastmod>2025-01-10</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Docker/VariousDockerCommands.html</loc>
+    <loc>https://til.stoerr.net/Github/GithubMarkdownTipps.html</loc>
     <lastmod>2024-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/search.html</loc>
-    <lastmod>2024-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/DotNet/DotNetOnMac.html</loc>
-    <lastmod>2024-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Misc/iMovieYoutubeScreencasts.html</loc>
-    <lastmod>2024-05-02</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Misc/sqlite.html</loc>
-    <lastmod>2024-05-30</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/bashstuff.html</loc>
     <lastmod>2024-05-02</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/Misc/SEO.html</loc>
-    <lastmod>2024-05-02</lastmod>
+    <loc>https://til.stoerr.net/Misc/iMovieYoutubeScreencasts.html</loc>
+    <lastmod>2025-05-24</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/collectServerFilesInPom.html</loc>
     <lastmod>2024-07-09</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/Misc/LogfileAnalysis.html</loc>
-    <lastmod>2024-08-30</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Misc/MavenSite.html</loc>
-    <lastmod>2024-02-11</lastmod>
+    <loc>https://til.stoerr.net/Misc/SEO.html</loc>
+    <lastmod>2024-05-02</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/Misc/AI-Meetups-Dresden.html</loc>
     <lastmod>2024-05-30</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/ApacheSling/ContentExportToFilesystem.html</loc>
+    <loc>https://til.stoerr.net/Misc/sqlite.html</loc>
+    <lastmod>2024-05-30</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Misc/LogfileAnalysis.html</loc>
+    <lastmod>2025-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Misc/MavenSite.html</loc>
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/Github/GithubMarkdownTipps.html</loc>
-    <lastmod>2024-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/IntelliJIdea/IntellJIdeaMisc.html</loc>
-    <lastmod>2024-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/IntelliJIdea/openInIntelliJCommandLine.html</loc>
-    <lastmod>2024-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/LLM/llm-embeddings-swillison.html</loc>
-    <lastmod>2024-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/LLM/chatgpt-systemprompt.html</loc>
+    <loc>https://til.stoerr.net/DotNet/DotNetOnMac.html</loc>
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
@@ -81,12 +49,56 @@
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemTouchUIDialogStuff.html</loc>
+    <loc>https://til.stoerr.net/LLM/chatgpt-systemprompt.html</loc>
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemContentSync.html</loc>
+    <loc>https://til.stoerr.net/LLM/llm-embeddings-swillison.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Javascript/VueMisc.html</loc>
+    <lastmod>2024-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/Javascript/Bookmarklets.html</loc>
+    <lastmod>2025-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/IntelliJIdea/IntellJIdeaMisc.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/IntelliJIdea/openInIntelliJCommandLine.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/</loc>
     <lastmod>2025-01-10</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/ideas.html</loc>
+    <lastmod>2024-01-05</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/ApacheSling/ContentExportToFilesystem.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/search.html</loc>
+    <lastmod>2024-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemSidebarExtension.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemWorkflows.html</loc>
+    <lastmod>2024-08-03</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AEMLiveCopy.html</loc>
+    <lastmod>2025-05-24</lastmod>
   </url>
   <url>
     <loc>https://til.stoerr.net/AdobeAEM/AemArchetypeStuff.html</loc>
@@ -97,7 +109,7 @@
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemMisc.html</loc>
+    <loc>https://til.stoerr.net/AdobeAEM/AemWKNDStructureReports.html</loc>
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
@@ -105,31 +117,23 @@
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemContentSync.html</loc>
+    <lastmod>2025-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://til.stoerr.net/AdobeAEM/AemMisc.html</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  <url>
     <loc>https://til.stoerr.net/AdobeAEM/AemJavascriptMisc.html</loc>
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemWorkflows.html</loc>
-    <lastmod>2024-08-03</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemWKNDStructureReports.html</loc>
+    <loc>https://til.stoerr.net/AdobeAEM/AemTouchUIDialogStuff.html</loc>
     <lastmod>2024-02-11</lastmod>
   </url>
   <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AemSidebarExtension.html</loc>
+    <loc>https://til.stoerr.net/Docker/VariousDockerCommands.html</loc>
     <lastmod>2024-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/AdobeAEM/AEMLiveCopy.html</loc>
-    <lastmod>2024-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/ideas.html</loc>
-    <lastmod>2024-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://til.stoerr.net/Javascript/VueMisc.html</loc>
-    <lastmod>2024-10-26</lastmod>
   </url>
 </urlset>
