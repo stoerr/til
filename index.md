@@ -65,7 +65,7 @@ an [AI (embedding) based search](search.md).
 ## [Javascript](#Javascript)
 
 * [Miscellaneous about Vue.js](Javascript/VueMisc.md) - 25-10-2024
-* [Creating Javascript Bookmarklets](Javascript/Bookmarklets.md) - 24-05-2025
+* [Creating Javascript Bookmarklets](Javascript/Bookmarklets.md) - 27-08-2025
 
 ## [LLM](#LLM)
 

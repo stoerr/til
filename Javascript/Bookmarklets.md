@@ -1,6 +1,6 @@
 # Creating Javascript Bookmarklets
 
-Created 24-05-2025, last change 24-05-2025
+Created 24-05-2025, last change 27-08-2025
 
 An interesting option for performing small actions in the browser is to write a Javascript bookmarklet - which are a 
 bookmark that does not open a new URL but contains a small piece of Javascript code that is executed on the 
@@ -17,3 +17,7 @@ the bookmark and the Javascript code and then shows a link which you can just dr
 treated yourself to an OpenAI API key you can even just type in a description what it should do and then let ChatGPT 
 create the Javascript code for you.
 
+If you're creating bookmarklets programmatically you can also include the function that should be executed verbatim
+into the Javascript file and use toString() of that function to create the actual bookmarklet. That trick is e.g.
+used in my [ChatGPT Tools bookmarklets](https://chatgpttools.stoerr.net/) (see
+[the source](https://github.com/stoerr/chatGPTtools/blob/develop/docs/index.html) ).
